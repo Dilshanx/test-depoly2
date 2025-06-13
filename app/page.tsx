@@ -27,7 +27,7 @@ export default function Home() {
     setIsClient(true);
     setIsVisible(true);
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: MouseEvent) => {
       setMousePos({ x: e.clientX, y: e.clientY });
     };
 
